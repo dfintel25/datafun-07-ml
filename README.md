@@ -19,9 +19,10 @@ py -m venv .venv
 py -m pip install --upgrade pip 
 py -m pip install -r requirements.txt
 ```
-### Git add & commit
+### Git add, clone, and commit
 ```
 git add .
+git clone "urlexample.git"
 git commit -m "add .gitignore, cmds to readme"
 git push -u origin main
 ```
