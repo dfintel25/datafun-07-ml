@@ -163,7 +163,7 @@ seaborn
 # ======================================================
 
 # Shiny framework for Python applications (~5-10 MB)
-#shiny
+shiny
 
 # ======================================================
 # KAFKA STREAMING MESSAGE BROKER INTEGRATION
@@ -184,7 +184,8 @@ seaborn
 # ======================================================
 
 # Core ML library with flexible APIs (~40-50 MB)
-#py -scikit-learn
+scikit-learn
+scipy
 
 # ======================================================
 # NATURAL LANGUAGE PROCESSING (NLP) - CAN BE VERY LARGE
@@ -198,3 +199,15 @@ seaborn
 
 #Handles data manipulation and analysis, focusing on structured (tabular/panel) data.
 pyarrow
+
+#Used for accessing databases, collections, and documents.
+pymongo
+
+#Used for big-data processing and analytics.
+pyspark
+
+#Used to help train and develop machine learning models.
+#tensorflow
+
+#Module for creating word clouds. 
+wordcloud
